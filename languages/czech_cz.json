@@ -1,0 +1,214 @@
+{
+  "basic_warnings": {
+    "low_parameters": "Mus\u00ED\u0161 uv\u00E9zt platn\u00E9 parametry...",
+    "high_parameters": "Moc parametr\u016F.",
+
+    "nsfwchannel_false": "Tohle nen\u00ED NSFW kan\u00E1l.",
+
+    "nsfwmodule_false": "Promi\u0148, ale NSFW Modul je vypnut.",
+    "moderationmodule_false": "Promi\u0148, ale Modera\u010Dn\u00ED Modul je vypnut.",
+    "roleplaymodule_false": "Promi\u0148, ale Roleplay Modul je vypnut.",
+
+    "permissions_false": "Promi\u0148, ale nem\u00E1\u0161 opravn\u011Bn\u00ED na to, abys provedl/a tuto akci.",
+    "bot_permissions_false": "Promi\u0148, ale nem\u00E1m opravn\u011Bn\u00ED na to, abych provedla tuto akci.",
+
+    "developer_false": "Promi\u0148, ale nejsi m\u016Fj v\u00FDvoj\u00E1\u0159!",
+
+    "vote_false": "Mus\u00ED\u0161 pro m\u011B hlasovat, abys mohl/a pou\u017E\u00EDvat tento p\u0159\u00EDkaz. Pou\u017Eij `.ztvote top.gg`, abys z\u00EDskal/a odkaz pro hlasov\u00E1n\u00ED.",
+
+    "spoiler_true": "Promi\u0148, ale tohle ti nemohu uk\u00E1zat."
+  },
+
+  "advanced_warnings": {
+    "template_fonts": "Moc parametr\u016F. Pro mezery pou\u017Eij '+'. P\u0159\u00EDklad: `",
+    "template_channel": "Mus\u00ED\u0161 uv\u00E9zt platn\u00E9 parametry. P\u0159\u00EDklad: `",
+    "template_voting": "Moc parametr\u016F. Pro mezery pou\u017Eij '+' a pro dal\u0161\u00ED \u0159\u00E1dku pou\u017Eij ';'. P\u0159\u00EDklad: `",
+
+    "bot_false": "Tento u\u017Eivatel nen\u00ED bot. Pou\u017Eij `",
+
+    "user_false": "Tento u\u017Eivatel je bot. Pou\u017Eij `",
+
+    "invalid_channel_type_1": "Promi\u0148, ale '",
+    "invalid_channel_type_2": "' nen\u00ED platn\u00FD typ kan\u00E1lu...",
+
+    "count_member_high": "Promi\u0148, ale nem\u00E1\u0161 opr\u00E1vn\u011Bn\u00ED na to, abys mohl/a pou\u017E\u00EDvat \u010D\u00EDsla s rozd\u00EDlem vet\u0161\u00EDm ne\u017E 10.",
+    "count_owner_high": "Promi\u0148, ale nem\u00E1\u0161 opr\u00E1vn\u011Bn\u00ED na to, abys mohl/a pou\u017E\u00EDvat \u010D\u00EDsla s rozd\u00EDlem vet\u0161\u00EDm ne\u017E 20.",
+    "count_invalid_channel": "Promi\u0148, ale tohle nen\u00ED po\u010D\u00EDtac\u00ED nebo spamovac\u00ED kan\u00E1l. Vytvo\u0159 kan\u00E1l se jm\u00E9nem 'counting' nebo 'spam'!",
+
+    "invalid_coin_side": "Promi\u0148, ale mus\u00ED\u0161 uv\u00E9zt platnou stranu mince. (",
+
+    "invalid_module": "Tento modul neexistuje!",
+
+    "invalid_color": "Neplatn\u00E1 barva. [",
+
+    "invalid_command": "' nen\u00ED platn\u00FD p\u0159\u00EDkaz.",
+
+    "invalid_website": "' nen\u00ED platn\u00E1 webov\u00E1 str\u00E1nka.",
+
+    "invalid_web": "Neplatn\u00E1 str\u00E1nka.",
+
+    "invalid_unit": "' nen\u00ED platn\u00E1 \u010Dasov\u00E1 jednotka.",
+
+    "invalid_parameter": "' nen\u00ED platn\u00FD parametr.",
+
+    "cooldown": "Tento p\u0159\u00EDkaz m\u016F\u017Ee\u0161 pou\u017E\u00EDt a\u017E za n\u011Bjakou dobu.",
+
+    "spin_true": "U\u017E jsi to\u010Dil/a kolem \u0161t\u011Bst\u00ED. Znovu bude\u0161 moci to\u010Dit na dal\u0161\u00ED \u00FArovni.",
+
+    "alone_false": "Mus\u00ED\u0161 b\u00FDt s\u00E1m/sama v hlasov\u00E9m kan\u00E1lu, abys mohl/a pou\u017E\u00EDvat tento p\u0159\u00EDkaz.",
+
+    "subreddit_false": "ERR: 404 - Tento subreddit nem\u00E1 \u017E\u00E1dn\u00FD p\u0159\u00EDsp\u011Bvek nebo neexistuje.",
+    "city_false": "ERR: 404 - Toto m\u011Bsto neexistuje.",
+
+    "urlshortener_link": "Neplatn\u00E9 url.",
+    "urlshortener_name": "Toto jm\u00E9no je ji\u017E zabran\u00E9.",
+    "urlshortener_shortened": "Toto url je ji\u017E zkr\u00E1cen\u00E9."
+  },
+
+  "logs": {
+    "channel_created": "\u00DAsp\u011B\u0161n\u011B vytvo\u0159en kan\u00E1l '",
+    "channel_deleted": "\u00DAsp\u011B\u0161n\u011B smaz\u00E1n kan\u00E1l '",
+
+    "checkfor_false": "Oh, nemohu nal\u00E9zt tohoto u\u017Eivatele.",
+    "checkfor_true_1": "Skv\u011Ble! ",
+    "checkfor_true_2": " je na serveru!",
+
+    "dice_won": "Vyhr\u00E1l/a jsi! Tv\u016Fj v\u00FDsledek je ",
+    "dice_lost": "Prohr\u00E1l/a jsi! Tv\u016Fj v\u00FDsledek je ",
+    "dice_match": "Shoda! Tv\u016Fj v\u00FDsledek je ",
+    "dice_template": " a m\u016Fj v\u00FDsledek je ",
+
+    "count_result_1": "V\u00FDsledek je ",
+    "count_result_2": ".",
+    "count_error": "Chyba! ",
+
+    "event_on": "Je tu event!",
+    "event_off": "Zat\u00EDm nen\u00ED \u017E\u00E1dn\u00FD event, ale bu\u010F trp\u011Bliv\u00FD/a! Event bude brzy!",
+
+    "giveaway_on": "Je tu giveaway!",
+    "giveaway_off": "Zat\u00EDm nen\u00ED \u017E\u00E1dn\u00E1 giveaway, ale bu\u010F trp\u011Bliv\u00FD/a! Giveaway bude brzy!",
+
+    "done": "Hotovo.",
+
+    "flip_template": "Je to ",
+    "flip_won": "! Vyhr\u00E1l/a jsi.",
+    "flip_lost": "! Prohr\u00E1l/a jsi.",
+
+    "gitlab": "Tady je m\u016Fj GitLab: https://github.com/ENGO150/ZeroTwo-Bot",
+
+    "guilds_count_1": "Jsem na ",
+    "guilds_count_2": " serverech. (",
+    "guilds_count_3": " u\u017Eivatel\u016F)",
+
+    "hack_IP_1": "Z\u00EDsk\u00E1v\u00E1n\u00ED ",
+    "hack_IP_2": " IP adresy...",
+    "hack_nudes_1": "Z\u00EDsk\u00E1v\u00E1n\u00ED ",
+    "hack_nudes_2": " nudes...",
+    "hack_money_1": "Kraden\u00ED ",
+    "hack_money_2": " penez...",
+    "hack_complete": "Hack je dokon\u010Den!",
+
+    "was_kicked_template": " byl vyhozen ",
+    "was_kicked_for": " za ",
+
+    "leave": "Za 1 sekundu opust\u00EDm tento server :cry:...",
+
+    "marry_already_married": "Jsi moment\u00E1ln\u011B \u017Eenat/vdan\u00E1.",
+    "marry_cant_marry_bot": "Nem\u016F\u017Ee\u0161 si vz\u00EDt bota.",
+    "marry_cant_marry_yourself": "Nem\u016F\u017Ee\u0161 si vz\u00EDt s\u00E1m sebe.",
+    "marry_user_is_married": "Tento u\u017Eivatel je moment\u00E1ln\u011B \u017Eenat/vd\u00E1n.",
+    "marry_user_already_have_a_request": "Tento u\u017Eivatel ji\u017E obdr\u017Eel \u017E\u00E1dost. Zkus to pozd\u011Bji nebo ho/j\u00ED po\u017E\u00E1dej, aby ti poslal/a \u017E\u00E1dost.",
+    "marry_request_was_sent": "Tv\u00E1 \u017E\u00E1dost byla posl\u00E1na.",
+    "marry_must_provide_a_user": "Mus\u00ED\u0161 uv\u00E9zt u\u017Eivatele.",
+    "marry_sent_you_1": " ti poslal/a \u017E\u00E1dost o man\u017Eelstv\u00ED. Pou\u017Eij `",
+    "marry_sent_you_2": "` abys za\u010Dal/a man\u017Eelstv\u00ED nebo `",
+    "marry_sent_you_3": "` abys odm\u00EDtl/a \u017E\u00E1dost.",
+    "marry_you_are_now_married": "Odte\u010F jsi \u017Eenat/vdan\u00E1!",
+    "marry_invalid_request": "Tento u\u017Eivatel ti neposlal \u017E\u00E1dost, anebo uveden\u00E9 ID je \u0161patn\u011B.",
+    "marry_no_requests": "Nem\u00E1\u0161 \u017E\u00E1dn\u00E9 \u017E\u00E1dosti.",
+    "marry_accepted": " p\u0159ijal/a tvou \u017E\u00E1dost o man\u017Eelstv\u00ED.",
+    "marry_you_declined": "\u00DAsp\u011B\u0161n\u011B jsi odm\u00EDtl/a \u017E\u00E1dost od ",
+    "marry_you_were_declined": " odm\u00EDtl tvou \u017E\u00E1dost o man\u017Eelstv\u00ED.",
+    "marry_must_provide_a_user_id": "Mus\u00ED\u0161 uv\u00E9zt ID u\u017Eivatele.",
+    "marry_you_ended_marriage": "\u00DAsp\u011B\u0161n\u011B jsi ukon\u010Dil/a man\u017Eelstv\u00ED.",
+    "marry_your_marriage_ended": " skon\u010Dil/a tv\u00E9 man\u017Eelstv\u00ED.",
+    "marry_you_are_not_married": "Nejsi \u017Eenat/vd\u00E1na.",
+    "marry_invalid_parameter": "Neplatn\u00FD parametr. '",
+    "marry_invalid_server": "M\u016F\u017Ee\u0161 se o\u017Eenit/vd\u00E1t pouze na support serveru..",
+
+    "premium": "Promi\u0148, ale st\u00E1le d\u011Bl\u00E1me na tomto modulu. Budes dost\u00E1vat premium za vylep\u0161en\u00ED (boost) support serveru / stan\u00EDm se patreonem.",
+
+    "issue_reported": "Tv\u016Fj probl\u00E9m byl nahl\u00E1\u0161en.",
+
+    "rps_must_specify": "Mus\u00ED\u0161 specifikovat volbu. (.ztrps [r/p/s])",
+    "rps_template_1": " Vsadil/a jsi ",
+    "rps_template_2": " a j\u00E1 vsadila ",
+    "rps_won": "Vyhr\u00E1l/a jsi!",
+    "rps_lost": "Prohr\u00E1l/a jsi!",
+    "rps_match": "Shoda!",
+
+    "support": "Tady je m\u016Fj support server:\nhttps://discordapp.com/invite/eJ3RNqJ",
+
+    "uptime": "Jsem online **",
+    "uptime_hours": "** hodin, **",
+    "uptime_minutes": "** minut and **",
+    "uptime_seconds": "** sekund.",
+
+    "invite": "Skv\u011Ble, chce\u0161 m\u011B pozvat na sv\u016Fj server! Tady m\u00E1\u0161 invite:\nhttps://discordapp.com/api/oauth2/authorize?client_id=668847135860719639&permissions=8&scope=bot",
+
+    "redeem_true": "K\u00F3d byl p\u0159ijat.",
+    "redeem_false": "K\u00F3d byl zam\u00EDtnut.",
+    "redeem_invalid": "K\u00F3d nen\u00ED nastaven.",
+
+    "pb_profile_true_1": "Ji\u017E m\u00E1\u0161 vytvo\u0159en\u00FD profil. Pou\u017Eij `",
+    "pb_profile_true_2": "papasbattlefield list` pro list aktivit nebo `",
+    "pb_profile_true_3": "papasbattlefield delete` abys smazal/a tv\u016Fj profil.",
+    "pb_profile_deleted": "Tv\u016Fj profil byl \u00FAs\\u011B\u0161n\u011B smaz\u00E1n.",
+    "pb_profile_false_1": "Nem\u00E1\u0161 vytvo\u0159en\u00FD profil. Pou\u017Eij `",
+    "pb_profile_false_2": "papasbattlefield` aby jsis profil vytvo\u0159il/a.",
+    "pb_invalid_action": "Neplatn\u00E1 akce '",
+
+    "ginvite": "Tady je invite:\n",
+
+    "welcome_enabled": "Uv\u00EDtac\u00ED zpr\u00E1va byla zapnuta.",
+    "welcome_disabled": "Uv\u00EDtac\u00ED zpr\u00E1va byla vypnuta.",
+    "welcome_err": "Nezapl/a jsi uv\u00EDtac\u00ED zpr\u00E1vu.",
+
+    "filter_enabled": "Filtr byl zapnut.",
+    "filter_disabled": "Filtr byl vypnut.",
+    "filter_added": "Slovo p\u0159id\u00E1no.",
+    "filter_removed": "Slovo odebr\u00E1no.",
+    "filter_err_1": "Ji\u017E jsi zapl/a jsi filtr.",
+    "filter_err_2": "Nezapl/a jsi filtr.",
+    "filter_err_3": "Toto slovo ji\u017E bylo p\u0159id\u00E1no.",
+    "filter_err_4": "Toto slovo nebylo p\u0159id\u00E1no.",
+
+    "botchat_enabled": "Botchat byl zapnut.",
+    "botchat_disabled": "Botchat byl vypnut.",
+    "botchat_err_1": "Ji\u017E jsi zapl/a botchat.",
+    "botchat_err_2": "Nezapl/a jsi botchat.",
+
+    "update_enabled": "Aktualiza\u010Dn\u00ED zpr\u00E1va byla zapnuta.",
+    "update_disabled": "Aktualiza\u010Dn\u00ED zpr\u00E1va byla vypnuta.",
+    "update_err": "Nezapl/a jsi aktualiza\u010Dn\u00ED zpr\u00E1vu.",
+
+    "music_adding": "P\u0159id\u00E1v\u00E1n\u00ED do po\u0159ad\u00ED ",
+    "music_first": "(prvn\u00ED stopa v po\u0159ad\u00ED ",
+    "music_nothing": "Nebylo nalezeno nic od ",
+    "music_failed": "Nelze p\u0159ehr\u00E1t: ",
+    "music_skipped": "P\u0159epnuto na dal\u0161\u00ED p\u00EDsni\u010Dku.",
+    "music_false": "Mus\u00ED\u0161 se p\u0159ipojit do hlasov\u00E9ho kan\u00E1lu.",
+    "music_false_2": "Nejsem v \u017E\u00E1dn\u00E9m hlasov\u00E9m kan\u00E1lu.",
+    "music_long": "Promi\u0148, ale tato skladba je p\u0159\u00EDli\u0161 dlouh\u00E1.",
+
+    "reminder": "Ok, vzbud\u00EDm t\u011B za ",
+    "reminder_wakeup": "Vst\u00E1vej, ",
+
+    "upvotes_final_1": "M\u00E1m ",
+    "upvotes_final_2": " upvot\u016F. (",
+
+    "source": "Tady je zdrojov\u00FD k\u00F3d ",
+
+    "moan": "Tady je trocha s\\u00E9n\u00E1n\u00ED.\nZvuk: BoobBot"
+  }
+}

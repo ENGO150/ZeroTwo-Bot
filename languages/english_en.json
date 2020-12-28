@@ -1,0 +1,215 @@
+{
+  "basic_warnings": {
+    "low_parameters": "You must provide a valid parameters, darling.",
+    "high_parameters": "Too many parameters, darling.",
+
+    "nsfwchannel_false": "This isn't NSFW channel, darling.",
+
+    "nsfwmodule_false": "Sorry darling, but NSFW Module is disabled.",
+    "moderationmodule_false": "Sorry darling, but Moderation Module is disabled.",
+    "roleplaymodule_false": "Sorry darling, but Roleplay Module is disabled.",
+
+    "permissions_false": "Sorry darling, but you don't have permissions to do that.",
+    "bot_permissions_false": "Sorry daling, but I don't have permissions to do that.",
+
+    "developer_false": "Sorry darling, but you aren't my developer!",
+
+    "vote_false": "You must vote me to use this command. Use `.ztvote top.gg` to get link for voting.",
+
+    "spoiler_true": "Sorry darling, but I can't show you this."
+  },
+
+  "advanced_warnings": {
+    "template_fonts": "Too many parameters, darling. For spaces use '+'. Example: `",
+    "template_channel": "You must provide a valid parameters, darling. Example: `",
+    "template_voting": "Too many parameters, darling. For spaces use '+' and for next line use ';'. Example: `",
+
+    "bot_false": "This user isn't bot. Use `",
+
+    "user_false": "This user is bot. Use `",
+
+    "invalid_channel_type_1": "Sorry darling, but '",
+    "invalid_channel_type_2": "' is not valid type of channel...",
+
+    "count_member_high": "Sorry darling, but you are not allowed to use numbers with difference greater than 10.",
+    "count_owner_high": "Sorry darling, but you are not allowed to use numbers with difference greater than 20.",
+    "count_invalid_channel": "Sorry darling, but this isn't counting or spam channel. Create channel called 'counting' or 'spam'!",
+
+    "invalid_coin_side": "Sorry darling, but you must provide a coin side. (",
+
+    "invalid_module": "This module does not exist!",
+
+    "invalid_color": "Invalid color. [",
+
+    "invalid_command": "' isn't a valid command.",
+
+    "invalid_website": "' isn't a valid website.",
+
+    "invalid_web": "Invalid website.",
+
+    "invalid_unit": "' isn't a valid time unit.",
+
+    "invalid_parameter": "' isn't a valid parameter.",
+
+    "cooldown": "You can use this command after a while.",
+
+    "spin_true": "You have already spinned wheel of fortune. You can spin again on the next level.",
+
+    "alone_false": "You must be alone in voice channel to use this command.",
+
+    "subreddit_false": "ERR: 404 - This subreddit has no posts or doesn't exist.",
+    "city_false": "ERR: 404 - This city doesn't exist.",
+
+    "urlshortener_link": "Invalid url.",
+    "urlshortener_name": "This name is already taken.",
+    "urlshortener_shortened": "This url is is already shortened."
+  },
+
+  "logs": {
+    "channel_created": "Successfully created channel '",
+    "channel_deleted": "Successfully deleted channel '",
+
+    "checkfor_false": "Oh, I can't find that user.",
+    "checkfor_true_1": "Nice! ",
+    "checkfor_true_2": " is on server!",
+
+    "dice_won": "You won! Your result is ",
+    "dice_lost": "You lost! Your result is ",
+    "dice_match": "It's a match! Your result is ",
+    "dice_template": " and my result is ",
+
+    "count_result_1": "The result is ",
+    "count_result_2": ", darling.",
+    "count_error": "Error! ",
+
+    "event_on": "There's an event, darling!",
+    "event_off": "There's no event in this moment, but be patient! Event will be soon!",
+
+    "giveaway_on": "There's a giveaway, darling!",
+    "giveaway_off": "There's no giveaway in this moment, but be patient! Giveaway will be soon!",
+
+    "done": "Done.",
+
+    "flip_template": "It's a ",
+    "flip_won": "! You won.",
+    "flip_lost": "! You lost.",
+
+    "gitlab": "Here, take my GitLab: https://github.com/ENGO150/ZeroTwo-Bot",
+
+    "guilds_count_1": "I am on ",
+    "guilds_count_2": " guilds. (",
+    "guilds_count_3": " users)",
+
+    "hack_IP_1": "Getting ",
+    "hack_IP_2": "'s IP address...",
+    "hack_nudes_1": "Getting ",
+    "hack_nudes_2": "'s nudes...",
+    "hack_money_1": "Stealing ",
+    "hack_money_2": "'s money...",
+    "hack_complete": "Hack is complete!",
+
+    "was_kicked_template": " was kicked by ",
+    "was_kicked_for": " for ",
+
+    "leave": "I will leave this server after 1 seconds :cry:...",
+
+    "marry_already_married": "You are already married, darling.",
+    "marry_cant_marry_bot": "You can't marry a bot.",
+    "marry_cant_marry_yourself": "You can't marry yourself.",
+    "marry_user_is_married": "This user is already married, darling.",
+    "marry_user_already_have_a_request": "This user has already received the request. Try it again later or ask him/her to send request to you.",
+    "marry_request_was_sent": "Your request was sent, darling.",
+    "marry_must_provide_a_user": "You must provide a user, darling.",
+    "marry_sent_you_1": " sent you a marriage request. Use `",
+    "marry_sent_you_2": "` for start marriage or `",
+    "marry_sent_you_3": "` to decline request.",
+    "marry_you_are_now_married": "You are now married!",
+    "marry_invalid_request": "This user didn't sent you a request, or the user ID is wrong.",
+    "marry_no_requests": "You don't have any requests.",
+    "marry_accepted": " accepted your marriage request.",
+    "marry_you_declined": "You successfully declined marriage request from ",
+    "marry_you_were_declined": " declined your marriage request.",
+    "marry_must_provide_a_user_id": "You must provide a user ID, darling.",
+    "marry_you_ended_marriage": "You successfully ended your marriage, darling.",
+    "marry_your_marriage_ended": " ended your marriage.",
+    "marry_you_are_not_married": "You aren't married, darling.",
+    "marry_invalid_parameter": "Invalid parameters, darling. '",
+    "marry_invalid_server": "You can marry only on support server, darling.",
+
+    "premium": "Sorry darling, but we are still making this module. You will get premium by 1 support server boost / becoming patreon.",
+
+    "issue_reported": "Your issue was reported.",
+
+    "rps_must_specify": "You must specify an option. (.ztrps [r/p/s])",
+    "rps_template_1": " You bet ",
+    "rps_template_2": " and I bet ",
+    "rps_won": "You won!",
+    "rps_lost": "You lost!",
+    "rps_match": "It's a match!",
+
+    "support": "Here, join my support server:\nhttps://discordapp.com/invite/eJ3RNqJ",
+
+    "uptime": "I am online **",
+    "uptime_hours": "** hours, **",
+    "uptime_minutes": "** minutes and **",
+    "uptime_seconds": "** seconds.",
+
+
+    "invite": "Nice, you wanna invite me to your server! Here you have my invite:\nhttps://discordapp.com/api/oauth2/authorize?client_id=668847135860719639&permissions=8&scope=bot",
+
+    "redeem_true": "Code was accepted.",
+    "redeem_false": "Code was declined.",
+    "redeem_invalid": "Code wasn't set.",
+
+    "pb_profile_true_1": "You have already a profile. Use `",
+    "pb_profile_true_2": "papasbattlefield list` for an activity list or `",
+    "pb_profile_true_3": "papasbattlefield delete` to delete your profile.",
+    "pb_profile_deleted": "Your profile was successfully deleted.",
+    "pb_profile_false_1": "You didn't create your profile. Use `",
+    "pb_profile_false_2": "papasbattlefield` to create your profile.",
+    "pb_invalid_action": "Invalid action '",
+
+    "ginvite": "Here, take the invite:\n",
+
+    "welcome_enabled": "Welcome message was enabled, darling.",
+    "welcome_disabled": "Welcome message was disabled, darling.",
+    "welcome_err": "You didn't enabled a welcome message.",
+
+    "filter_enabled": "Filter was enabled, darling.",
+    "filter_disabled": "Filter was disabled, darling.",
+    "filter_added": "Word added.",
+    "filter_removed": "Word removed.",
+    "filter_err_1": "You already enabled filter.",
+    "filter_err_2": "You didn't enabled filter.",
+    "filter_err_3": "This word is currently added.",
+    "filter_err_4": "This word wasn't added.",
+
+    "botchat_enabled": "Botchat was enabled, darling.",
+    "botchat_disabled": "Botchat was disabled, darling.",
+    "botchat_err_1": "You already enabled a botchat.",
+    "botchat_err_2": "You didn't enabled a botchat.",
+
+    "update_enabled": "Update message was enabled, darling.",
+    "update_disabled": "Update message was disabled, darling.",
+    "update_err": "You didn't disabled a welcome message.",
+
+    "music_adding": "Adding to queue ",
+    "music_first": "(first track of playlist ",
+    "music_nothing": "Nothing found by ",
+    "music_failed": "Could not play: ",
+    "music_skipped": "Skipped to next track.",
+    "music_false": "You must connect to voice channel.",
+    "music_false_2": "I am not in any voice channel.",
+    "music_long": "Sorry darling, but this track is too long.",
+
+    "reminder": "Ok, I will wake you up after ",
+    "reminder_wakeup": "Wake up, ",
+
+    "upvotes_final_1": "I have ",
+    "upvotes_final_2": " upvotes, darling. (",
+
+    "source": "Here, take source of ",
+
+    "moan": "Here, take some moans.\nSound by BoobBot"
+  }
+}
