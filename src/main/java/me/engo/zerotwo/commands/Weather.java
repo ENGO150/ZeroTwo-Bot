@@ -109,7 +109,7 @@ public class Weather extends ListenerAdapter {
 
                         em.addField("Wind", speed + " m/s", false);
 
-                        em.addField("Temperature", temp_c + " Â°C, " + temp_f + " Â°F", false);
+                        em.addField("Temperature", temp_c + " °C, " + temp_f + " °F", false);
 
                         em.addField("Timezone", timezone_s, false);
 

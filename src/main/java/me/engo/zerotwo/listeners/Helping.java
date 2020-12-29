@@ -12,7 +12,7 @@ public class Helping extends ListenerAdapter {
             if (event.getReactionEmote().getEmoji().equals("❓")) {
                 event.getChannel().retrieveMessageById(event.getMessageIdLong()).queue(message -> {
                     String id = message.getAuthor().getId();
-                    if (id.equals("668847135860719639")) {
+                    if (id.equals("793147459768942623")) {//668847135860719639
                         Config c = new Config();
                         if (event.getMember().getUser().isBot()) return;
 

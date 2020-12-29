@@ -15,7 +15,7 @@ public class Rockpaperscissors extends ListenerAdapter {
                     String id = message.getAuthor().getId();
                     if (id.equals("668847135860719639")) {
                         if (event.getMember().getUser().isBot()) return;
-                        if (message.getContentRaw().equalsIgnoreCase("Adding to queue LITTLE BIG - ROCKâ€“PAPERâ€“SCISSORS (Official Music Video) [0h:3m:18s]")){
+                        if (message.getContentRaw().equalsIgnoreCase("Adding to queue LITTLE BIG - ROCK–PAPER–SCISSORS (Official Music Video) [0h:3m:18s]")){
                             final int i = new Random().nextInt(100);
 
                             if (i <= 50){

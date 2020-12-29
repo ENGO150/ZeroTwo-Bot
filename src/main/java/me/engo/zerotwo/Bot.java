@@ -17,21 +17,19 @@ import me.engo.zerotwo.listeners.Welcoming;
 import me.engo.zerotwo.reactions.America;
 import me.engo.zerotwo.reactions.Creeper;
 import me.engo.zerotwo.reactions.Eo;
-import net.dv8tion.jda.api.AccountType;
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
-import net.dv8tion.jda.api.OnlineStatus;
 import net.dv8tion.jda.api.entities.Activity;
 
 public class Bot {
 
     public static String secret = null;
     public static JDA jda;
+    private static String token;
     public static String token_weather;
     public static String token_url;
     public static String token_youtube;
 
-    @SuppressWarnings("deprecation")
     public static void main(String[] args) throws Exception {
 
         File token_file = new File("token");
@@ -63,14 +61,14 @@ public class Bot {
             System.exit(0);
         }
 
-        String token = tokens.get(0);
+        token = tokens.get(0);
         token_weather = apis.get(0);
         token_url = apis.get(1);
         token_youtube = apis.get(2);
 
-        jda = new JDABuilder(AccountType.BOT)
+        jda = JDABuilder.createDefault(token)
                 .setToken(token)
-                .setStatus(OnlineStatus.ONLINE)
+                	//.setStatus(OnlineStatus.ONLINE)
                 .build()
                 .awaitReady();
                 
@@ -250,7 +248,7 @@ public class Bot {
 
             secret = String.valueOf(a) + d + b + e + ce;
 
-            jda.getPresence().setActivity(Activity.streaming("Redeem this: " + secret, "https:/discord.io/ekse"));
+            jda.getPresence().setActivity(Activity.playing("Redeem this: " + secret));
             Thread.sleep((rnd.nextInt(3) + 7) * 1000);
         }
 
