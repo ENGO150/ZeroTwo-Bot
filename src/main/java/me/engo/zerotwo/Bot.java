@@ -1,8 +1,8 @@
 package me.engo.zerotwo;
 
-import java.io.File;
+/*import java.io.File;
 import java.nio.file.Files;
-import java.util.List;
+import java.util.List;*/
 import java.util.Random;
 
 import me.engo.zerotwo.commands.*;
@@ -32,7 +32,7 @@ public class Bot {
 
     public static void main(String[] args) throws Exception {
 
-        File token_file = new File("token");
+        /*File token_file = new File("token");
         if (!token_file.exists()){
             System.err.println("Token file not found.");
             Thread.sleep(5000);
@@ -59,12 +59,12 @@ public class Bot {
             System.err.println("Api not found.");
             Thread.sleep(5000);
             System.exit(0);
-        }
+        }*/
 
-        token = tokens.get(0);
-        token_weather = apis.get(0);
-        token_url = apis.get(1);
-        token_youtube = apis.get(2);
+        token = /*tokens.get(0);*/System.getenv("token");
+        token_weather = /*apis.get(0);*/System.getenv("token_weather");
+        token_url = /*apis.get(1);*/System.getenv("token_url");
+        token_youtube = /*apis.get(2);*/System.getenv("token_youtube");
 
         jda = JDABuilder.createDefault(token)
                 .setToken(token)
