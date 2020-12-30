@@ -36,7 +36,7 @@ public class Source extends ListenerAdapter {
                 if (args.length < 2) {
                     String text = JsonParser.parseReader(new FileReader("languages/" + language + ".json")).getAsJsonObject().get("basic_warnings").getAsJsonObject().get("low_parameters").getAsString();
                     event.getChannel().sendMessage(text).queue();
-                } else if (args.length == 2) {
+                } else if (args.length == 2 || (args.length == 3 && args[2].equalsIgnoreCase("raw"))) {
                     String cmd_broken = args[1].toLowerCase();
                     String cmd_1 = cmd_broken.substring(0, cmd_broken.length() - (cmd_broken.length() - 1)).toUpperCase();
                     String cmd_2 = cmd_broken.substring(1);
@@ -47,7 +47,14 @@ public class Source extends ListenerAdapter {
                     cmd = cmd + ".java";
 
                     String text = JsonParser.parseReader(new FileReader("languages/" + language + ".json")).getAsJsonObject().get("logs").getAsJsonObject().get("source").getAsString();
-                    event.getChannel().sendMessage(text + cmd + ":\n"  + "https://gitlab.com/ENGO_150/zerotwo/-/blob/master/src/main/java/me/engo/zerotwo/commands/" + cmd).queue();
+                    if (args.length == 2)
+                    {
+                    	event.getChannel().sendMessage(text + cmd + ":\n"  + "https://github.com/ENGO150/ZeroTwo-Bot/blob/master/src/main/java/me/engo/zerotwo/commands/" + cmd).queue();
+                    } else
+                    {
+                    	File raw = new File("assets/raw/" + cmd);
+                    	event.getChannel().sendMessage(text + cmd + " (RAW)").addFile(raw).queue();
+                    }
                 } else {
                     String text = JsonParser.parseReader(new FileReader("languages/" + language + ".json")).getAsJsonObject().get("basic_warnings").getAsJsonObject().get("high_parameters").getAsString();
                     event.getChannel().sendMessage(text).queue();

@@ -95,7 +95,7 @@ public class Module extends ListenerAdapter {
                             em.addField("Reddit", "`.ztreddit [subreddit]`", false);
                             em.addField("My Upvotes", "`.ztupvotes`", false);
                             em.addField("Reminder", "`.ztreminder [time] (s/m/h/d)`", false);
-                            em.addField("Get a Source of Command", "`.ztsource [command]`", false);
+                            em.addField("Get a Source of Command", "`.ztsource [command] (raw)`", false);
                             em.addField("Profile", "`.ztprofile (user)`", false);
                             em.addField("Report a Bug", "`.ztreport [bug]`", false);
                             em.addField("Check for User", "`.ztcheckfor [userId]`", false);

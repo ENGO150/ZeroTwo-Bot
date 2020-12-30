@@ -1,21 +1,20 @@
 package me.engo.zerotwo.commands;
 
-import com.google.gson.JsonParser;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Objects;
+
 import me.engo.zerotwo.Bot;
 import me.engo.zerotwo.Config;
 import me.engo.zerotwo.handlers.GuildMusicManager;
 import me.engo.zerotwo.handlers.Music;
+import me.engo.zerotwo.handlers.Translate;
 import net.dv8tion.jda.api.Permission;
 import net.dv8tion.jda.api.entities.Guild;
 import net.dv8tion.jda.api.entities.VoiceChannel;
 import net.dv8tion.jda.api.events.message.guild.GuildMessageReceivedEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
 import net.dv8tion.jda.api.managers.AudioManager;
-
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.util.Objects;
 
 public class Stop extends ListenerAdapter {
 
@@ -55,22 +54,22 @@ public class Stop extends ListenerAdapter {
                                 musicManager.player.stopTrack();
                                 audioManager.closeAudioConnection();
 
-                                String text = JsonParser.parseReader(new FileReader("languages/" + language + ".json")).getAsJsonObject().get("logs").getAsJsonObject().get("done").getAsString();
+                                String text = Translate.getTranslate(language, "logs", "done");
                                 event.getChannel().sendMessage(text).queue();
                             } else {
-                                String text = JsonParser.parseReader(new FileReader("languages/" + language + ".json")).getAsJsonObject().get("basic_warnings").getAsJsonObject().get("permissions_false").getAsString();
+                                String text = Translate.getTranslate(language, "basic_warnings", "permissions_false");
                                 event.getChannel().sendMessage(text).queue();
                             }
                         } else {
-                            String text = JsonParser.parseReader(new FileReader("languages/" + language + ".json")).getAsJsonObject().get("logs").getAsJsonObject().get("music_false_2").getAsString();
+                            String text = Translate.getTranslate(language, "logs", "music_false_2");
                             event.getChannel().sendMessage(text).queue();
                         }
                     } else {
-                        String text = JsonParser.parseReader(new FileReader("languages/" + language + ".json")).getAsJsonObject().get("logs").getAsJsonObject().get("music_false").getAsString();
+                        String text = Translate.getTranslate(language, "logs", "music_false");
                         Objects.requireNonNull(Bot.jda.getTextChannelById(Music.id)).sendMessage(text).queue();
                     }
                 } else {
-                    String text = JsonParser.parseReader(new FileReader("languages/" + language + ".json")).getAsJsonObject().get("basic_warnings").getAsJsonObject().get("high_parameters").getAsString();
+                    String text = Translate.getTranslate(language, "basic_warnings", "high_parameters");
                     event.getChannel().sendMessage(text).queue();
                 }
             } catch (FileNotFoundException e) {
