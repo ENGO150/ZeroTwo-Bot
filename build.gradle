@@ -1,6 +1,3 @@
-task stage(dependsOn: ['build', 'clean'])
-build.mustRunAfter clean
-
 plugins {
     id'java'
     id'application'

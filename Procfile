@@ -1,1 +1,0 @@
-Worker: java src/main/java/me/engo/zerotwo/Bot.java
